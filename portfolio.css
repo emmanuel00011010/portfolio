@@ -278,14 +278,35 @@ h3#projects-tagline {
 	padding: .1rem 1.5rem .2rem;
 	border: solid 1px #ffc357;
 	border-radius: 50px;
+	font-size: 1.2rem;
 	transition: all .2s ease-out;
+	position: relative;
+	overflow: hidden;
+}
+
+.project-caption a::before {
+	content: "";
+	background-color: var(--secondary-bg);
+	width: 150px;
+	height: 50px;
+	display: block;
+	position: absolute;
+	top: -6px;
+	left: -155px;
+	transform: skew(26deg);
+	transition: .3s ease-out;
+	z-index: -1;
 }
 
 .project-caption a:hover {
-	background-color: var(--secondary-bg);
+	background-color: rgba(0, 0, 0, 0);
 	border: solid 1px #ffc357;
 	color: var(--primary-bg);
-	transition: all .2s ease-in;
+}
+
+.project-caption a:hover::before {
+	left: -10px;
+	transition: .4s ease-in;
 }
 
 #contact {
