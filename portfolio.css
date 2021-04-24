@@ -160,7 +160,7 @@ body {
 	background-color: var(--secondary-bg);
 }
 
-h2#projects-title, h2#contact-title {
+h2#projects-title {
 	padding-top: 2rem;
 	text-align: center;
 	font-family: var(--h1);
@@ -251,7 +251,7 @@ h3#projects-tagline {
 
 #contact {
 	width: 100%;
-	background-color: var(--forth-bg);
+	background-color: #333;
 }
 
 #contact-wrapper {
@@ -261,6 +261,15 @@ h3#projects-tagline {
 	align-items: center;
 	padding: 2rem;
 }
+
+h2#contact-title {
+	padding-top: 2rem;
+	text-align: center;
+	font-family: #faf;
+	font-weight: 400;
+	color: var(--secondary-text-color);
+}
+
 
 a.footer-links {
 	display: block;
