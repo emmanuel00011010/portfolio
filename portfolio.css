@@ -94,6 +94,15 @@ a#say-hello::after {
 	transition: .3s ease-out;
 }
 
+#navbar a#say-hello:hover::before{
+	left: -10px;
+	transition: .4s ease-in;
+}
+#navbar a#say-hello:hover::after{
+	left: -10px;
+	transition: .2s ease-in;
+}
+
 .welcome-section {
 	width: 100%;
 	height: 700px;
