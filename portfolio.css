@@ -64,14 +64,14 @@ body {
 	transition: .3s ease-out;
 }
 
-#welcome-section {
+.welcome-section {
 	width: 100%;
 	height: 700px;
 	background-color: var(--primary-bg);
 	position: relative;
 }
 
-#welcome-section #name-wrapper {
+.welcome-section #name-wrapper {
 	width: 100%;
 	height: 100vh;
 	display: flex;
@@ -111,7 +111,7 @@ body {
 	transition: top .4s ease-in;
 }
 
-#welcome-section #normal-welcome {
+.welcome-section #normal-welcome {
 	color: var(--forth-bg);
 	writing-mode: vertical-rl;
 	position: absolute;
@@ -123,7 +123,7 @@ body {
 	transition: font-size .4s ease-in;
 }
 
-#welcome-section #giant-welcome {
+.welcome-section #giant-welcome {
 	color: var(--secondary-bg);
 	writing-mode: vertical-rl;
 	position: absolute;
@@ -135,7 +135,7 @@ body {
 	transition: font-size .4s ease-in;
 }
 
-#welcome-section #nsl {
+.welcome-section #nsl {
 	color: var(--forth-bg);
 	position: absolute;
 	right: 89px;
@@ -145,7 +145,7 @@ body {
 	transition: font-size .4s ease-in;
 }
 
-#welcome-section #nsl2 {
+.welcome-section #nsl2 {
 	color: var(--secondary-bg);
 	position: absolute;
 	right: 60px;
@@ -331,7 +331,7 @@ a.footer-links:hover {
 	transition: top .4s ease-out;
 }
 
-#welcome-section #normal-welcome {
+.welcome-section #normal-welcome {
 	position: absolute;
 	right: 70px;
 	top: 180px;
@@ -339,7 +339,7 @@ a.footer-links:hover {
 	transition: font-size .4s ease-out;
 }
 
-#welcome-section #giant-welcome {
+.welcome-section #giant-welcome {
 	position: absolute;
 	right: 20px;
 	top: 90px;
@@ -347,14 +347,14 @@ a.footer-links:hover {
 	transition: font-size .4s ease-out;
 }
 
-#welcome-section #nsl {
+.welcome-section #nsl {
 	right: 90px;
 	bottom: 170px;
 	font-size: 3rem;
 	transition: font-size .4s ease-out;
 }
 
-#welcome-section #nsl2 {
+.welcome-section #nsl2 {
 	color: var(--secondary-bg);
 	position: absolute;
 	right: 60px;
