@@ -93,7 +93,7 @@ body {
 	position: relative;
 	top: -190px;
 	z-index: 1;
-	font-size: 2.5rem;
+	font-size: 4rem;
 	font-family: var(--secondary-font);
 	font-weight: 400;
 	transition: font-size .4s ease-in;
@@ -320,7 +320,7 @@ a.footer-links:hover {
 }
 
 #name-wrapper #my-name-is {
-	font-size: 3.5rem;
+	font-size: 2.5rem;
 	transition: font-size .4s ease-out;
 }
 
