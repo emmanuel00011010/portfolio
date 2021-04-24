@@ -251,7 +251,7 @@ h3#projects-tagline {
 
 #contact {
 	width: 100%;
-	background-color: #333;
+	background-color: #222;
 }
 
 #contact-wrapper {
@@ -281,7 +281,7 @@ a.footer-links {
 }
 
 a.footer-links:hover {
-	color: var(--primary-bg);
+	color: var(--secondary-bg);
 	transition: .2s ease-in;
 }
 
